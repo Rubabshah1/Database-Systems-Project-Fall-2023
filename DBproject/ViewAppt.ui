@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>812</width>
+    <height>796</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-20</y>
+     <width>831</width>
+     <height>831</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.96, y2:0.789773, stop:0 rgba(183, 132, 121, 255), stop:1 rgba(196, 185, 181, 255));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>581</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 48pt &quot;Bahnschrift SemiBold Condensed&quot;;color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>MY APPOINTMENTS</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="appointment">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>150</y>
+     <width>701</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>AppointmentID.</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CustomerID.</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Stylist</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Time</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ServicesID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SalonID</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>500</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(210, 200, 199);
+font: 25 11pt &quot;Segoe UI Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Cancel Appointment</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>500</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(210, 200, 199);
+font: 25 11pt &quot;Segoe UI Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>818</width>
+    <height>1040</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>821</width>
+     <height>1061</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.96, y2:0.789773, stop:0 rgba(183, 132, 121, 255), stop:1 rgba(196, 185, 181, 255));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>0</y>
+     <width>641</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 48pt &quot;Bahnschrift SemiBold Condensed&quot;;color:rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>BOOK AN APPOINTMENT</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>701</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Book An Appointment</string>
+   </property>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>671</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Salon Selection</string>
+    </property>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;Nirmala UI Semilight&quot;;
+color:rgb(255, 255, 255)</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Enter your city:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="salonList">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>631</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>SalonID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Salon Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Rating</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>PlotNo</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>StreetNo</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>City</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string/>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>-60</x>
+       <y>200</y>
+       <width>721</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 25 12pt &quot;Yu Gothic UI Light&quot;;
+color:rgb(255, 255, 255)
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;(To cancel an appointment an appointment, Click on your booking and Cancel Appointment)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="city">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="findSalons">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>47</y>
+       <width>93</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Find Salons</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>421</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Services</string>
+    </property>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>241</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;Nirmala UI Semilight&quot;;
+color:rgb(255, 255, 255)</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Choose a Service:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="serviceList">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>401</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>ServicesID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Description</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Charges</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Duration</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>240</y>
+      <width>241</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Method Of Payment</string>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>201</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;Nirmala UI Semilight&quot;;
+color:rgb(255, 255, 255)</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Choose Method Of Payment:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="COD">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>56</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Cash</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="credit">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>76</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Credit Card</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="debit">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>121</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Debit Card</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>671</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Stylists and their availability:</string>
+    </property>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>241</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;Nirmala UI Semilight&quot;;
+color:rgb(255, 255, 255)</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Choose a Stylist:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="stylist">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>631</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Stylist</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>StylistID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Specialty</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Date</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Time</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="book">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>740</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(210, 200, 199);
+font: 25 18pt &quot;Segoe UI Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Book</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Cancel">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>740</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(210, 200, 199);
+font: 25 18pt &quot;Segoe UI Light&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
